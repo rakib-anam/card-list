@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "lit": "^2.0.2",
-    "pokemon-card-in-open-wc": "^0.0.0"
+    "pokemon-card-in-open-wc": "^0.0.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",

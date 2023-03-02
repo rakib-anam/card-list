@@ -59,10 +59,14 @@ class CardList extends LitElement {
 
   render() {
     return html`
-      <pokemon-card-in-open-wc name="Pikachu">
+      <pokemon-card-in-open-wc name='Pikachu' imageUrl='https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg'
+      topText='Pika' bottomText='Pika'>
+      <p>
+        Pikachi is a mouse pokemon.
+      </p>
       </pokemon-card-in-open-wc>
 
-      <pokemon-card-in-open-wc>
+      <pokemon-card-in-open-wc imageUrl='https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg'>
       </pokemon-card-in-open-wc>
     `;
   }
