@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "lit": "^2.0.2",
+    "my-card-dani": "^0.0.0",
     "pokemon-card-in-open-wc": "^0.0.1"
   },
   "devDependencies": {

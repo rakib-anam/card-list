@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 
 import "pokemon-card-in-open-wc/src/pokemon-card-in-open-wc.js";
+import "my-card-dani/src/my-card-dani.js";
 
 class CardList extends LitElement {
   static properties = {
@@ -30,6 +31,9 @@ class CardList extends LitElement {
 
   render() {
     return html`
+
+      <!--Pokemon Cards-->
+
       <pokemon-card-in-open-wc name='Charizard'
       imageUrl='https://img2.cgtrader.com/items/4040895/1b0ac08b24/pokemon-charizard-easy-print-no-support-3d-model-stl.jpg'
       topText='CHARIII' bottomText='ZAAARD'
@@ -60,6 +64,38 @@ class CardList extends LitElement {
       topText='MEW' bottomText='TWO'>
       <p>Mewtwo is a phychic type pokemon</p>
       </pokemon-card-in-open-wc>
+
+      <!--Hockey Cards-->
+
+      <my-card-dani name='Washington Capitals'
+      imageUrl='https://starsandsticks.com/wp-content/uploads/imagn-images/2017/07/16949255.jpeg'
+      textbox1='Capitals won the Stanley Cup 1 time'  menuLabel='Team Colors'>
+      <p>red & white & blue</p>
+      </my-card-dani>
+
+      <my-card-dani name='Pittsburgh Penguins'
+      imageUrl='https://cms.nhl.bamgrid.com/images/photos/317714618/1024x576/cut.jpg'
+      textbox1='Penguins won the Stanley Cup 5 times'  menuLabel='Team Colors'>
+      <p>yellow & black</p>
+      </my-card-dani>
+
+      <my-card-dani name='Philadelphia Flyers'
+      imageUrl='https://www.visitphilly.com/wp-content/uploads/2018/02/Flyers-players-LenRedkoles-NHL-2200x1237.jpg'
+      textbox1='Flyers won the Stanley Cup 2 times'  menuLabel='Team Colors'>
+      <p>orange & black</p>
+      </my-card-dani>
+
+      <my-card-dani name='New York Rangers'
+      imageUrl='https://cms.nhl.bamgrid.com/images/photos/328485222/1024x576/cut.jpg'
+      textbox1='Rangers won the Stanley Cup 4 times'  menuLabel='Team Colors'>
+      <p>blue & red</p>
+      </my-card-dani>
+
+      <my-card-dani name='New York Islanders'
+      imageUrl='https://cms.nhl.bamgrid.com/images/photos/317636568/1024x576/cut.jpg'
+      textbox1='Islanders won the Stanley Cup 4 times'  menuLabel='Team Colors'>
+      <p>blue & orange</p>
+      </my-card-dani>
     `;
   }
 }
